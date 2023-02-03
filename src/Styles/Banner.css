@@ -1,0 +1,54 @@
+.banner{
+    width: 100%;
+    height:200px;
+    background-image: url('../Assets/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.banner div{
+    width: 50%;
+}
+
+.banner h1{
+    color: white;
+    font-size:70px;
+}
+.banner p{
+    color: white;
+}
+
+@media only screen and (max-width: 900px){
+    .banner h1{
+        color: white;
+        font-size:50px;
+    }
+}
+@media only screen and (max-width: 650px){
+   
+    .banner div{
+        width: 55%;
+    }
+   
+    .banner h1{
+        color: white;
+        font-size:40px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .banner{
+        align-items: center;
+        text-align: center;
+    }
+    .banner div{
+        width: 70%;
+    }
+    .banner p{
+        background-color: #ffffff44;
+    }
+}
